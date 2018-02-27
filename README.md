@@ -11,5 +11,5 @@ HOW TO BUILD
 
 On Ubuntu 16.04 LTS:
   - open a terminal in /src directory
-  - run bash build.sh
-  - java -jar SpeedTyper.jar
+  - "bash build.sh" to build
+  - "java -jar SpeedTyper.jar" to execute
