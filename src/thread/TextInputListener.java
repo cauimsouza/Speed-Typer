@@ -10,7 +10,7 @@ import java.util.Stack;
 import java.util.concurrent.BlockingQueue;
 
 public class TextInputListener implements DocumentListener {
-    private final String dictionaryFile = "dictionary/american-english";
+    private final String dictionaryFile = "../dictionary/american-english";
 
     private HashSet<String> dictionary;
     private final BlockingQueue<Integer> pointsQueue;
