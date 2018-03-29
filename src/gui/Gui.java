@@ -97,6 +97,7 @@ public class Gui {
         textPanel.getTextArea().setEditable(true);
         textPanel.getTextArea().setOpaque(true);
         textPanel.getTextArea().setText("");
+	textPanel.getTextArea().getCaret().setVisible(true);
 
         scorePanel.getInfoLabel().setText("0");
     }

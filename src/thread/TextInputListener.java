@@ -48,7 +48,7 @@ public class TextInputListener implements DocumentListener {
                 int points = newWord.length();
                 if(!dictionary.contains(newWord.toLowerCase())) {
                     points *= -1;
-
+			
                     typeQueue.add(true);
                     wrongWordsQueue.add(newWord);
                 }
